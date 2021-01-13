@@ -2,10 +2,9 @@
 <html>
 	<head>
 		<title>
-			Styling pages and Bootstrap gets referenced here.
-			This information does not get displayed.
-			Meta data would go in here
+			"The other page"
 		</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	</head>
 
 	<body>
@@ -13,7 +12,7 @@
 		<h1>Things wrong with my least favoutite countries, and how to fix
 			them!
 		</h1>
-		<table>
+		<table class="my_table">
 			<tr>
 				<th>North Korea.</th>
 				<th>Russia.</th>
@@ -30,20 +29,20 @@
 				<td>There is no saving coventry.</td>
 			</tr>
 		</table>
-
-
-
+		<hr>
 		<h2>Tell me about your favourite travel locations:</h2>
-
 		<form>
-			<label for="type">What is your favorite type of travel locations?</label>
-				<select id ="type" name="type">
-					<option value="Evil Dictatorship"></option><br>
-					<option value="Banana Republic"></option><br>
-					<option value="Dystopian Future"></option><br>
-					<option value="Anywhere but Coventry"></option>
+			<label for="reasons">What is your favorite type of travel locations?</label>
+				<select id ="reasons" name="reasons">
+					<option value="Evil Dictatorship">Evil Dictatorship</option>
+					<option value="Banana Republic">Banana Republic</option>
+					<option value="Dystopian Future">Dystopian Future</option>
+					<option value="Anywhere but Coventry">Anywhere but Coventry</option>
 				</select>
+				<br><br>
+				<input type="submit" value="Submit">
 		</form>
 		<a href="index.html">go back</a>
+		<br></br>
 	</body>
 </html>
