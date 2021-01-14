@@ -15,3 +15,18 @@ a{
     margin-right: auto;
 }
 
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: lightblue;
+}
